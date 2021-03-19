@@ -1,0 +1,9 @@
+<div class="container text-center">
+    <h1 class="mt-5">{{project.name}}</h1>
+    <br>
+    <p>{{project.description}}</p>
+    <p>Created by {{project.user.name}} on {{format_date project.date_created}}</p>
+    <p>$<span class="fundingAmount">{{project.needed_funding}}</span> needed</p>
+
+    <button class="btn primary-btn">Fund this Project!</button>
+</div>

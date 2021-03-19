@@ -1,0 +1,31 @@
+#logo {
+    color: rgb(50, 176, 255);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(50, 176, 255);
+}
+
+.maxWidth700 {
+    max-width: 1000px !important;
+}
+
+hr {
+    width: 100%;
+}
+
+.fundingAmount {
+    color: rgba(49, 165, 49, 0.623);
+}
+
+.fa-minus-circle {
+    font-size: 1.5em;
+    color: crimson;
+}
+
+.center-vert {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,18 @@
+<div class="container mt-5">
+    <div class="text-center mb-4">
+        <a href="/addProject"><button id="createProject" class="btn btn-primary">Create a new project!</button></a>
+    </div>
+    <hr>
+
+    <h2 class="text-center my-4">Your projects!</h2>
+    {{#if user.projects}}
+    <div class="container justify-contents-center">
+        {{#each user.projects as |project|}}
+        {{> profile-project-details}}
+        {{/each}}
+    </div>
+    <script src="/JS/script.js"></script>
+    {{else}}
+    <p class="text-center">You have no projects yet</p>
+    {{/if}}
+</div>
